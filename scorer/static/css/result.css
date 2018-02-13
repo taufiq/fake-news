@@ -1,0 +1,21 @@
+body {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    line-height: 1.5;
+    max-width: 50%;
+    transform: translate(50%, 0)
+}
+
+p.title {
+    font-size: 34px;
+    font-weight: bold;
+    background-color: black;
+}

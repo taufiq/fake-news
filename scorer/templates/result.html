@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Result of enquiry!</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/result.css' %}" />
+</head>
+
+<body>
+    <h1>Our Stance:</h1>
+    <p>{{ detail }}</p>
+    <h1>Your Title is:
+    </h1>
+    <p class="title">{{title}}</p>
+    <h1>Body of the article:</h1>
+    <p>{{body}}</p>
+    <h1>Checker Zero</h1>
+    <p>User who first submitted this article is
+        <b>{{ checkerZero }}</b>
+    </p>
+</body>
+
+</html>

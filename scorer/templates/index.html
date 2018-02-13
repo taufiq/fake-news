@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <meta name="Author" content="Bigboi123" />
+    <meta name="Description" content="Fake News Detector!" />
+    <title>Fake News Detector!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}" />
+    <script src="{% static 'css/index.js' %}"></script>
+</head>
+
+<body>
+    <a href="{% url 'leaderboards' %}">Leaderboards</a>
+    <h1>Welcome to the Fake News Detector!</h1>
+    <form action="/scorer/" method="post">
+        {% csrf_token %} {{ form }}
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
