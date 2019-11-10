@@ -1,4 +1,4 @@
-# fake-news-
+# fake-news
 🗞 Clickbait article checker
 
 ## How it works
